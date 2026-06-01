@@ -20,6 +20,8 @@ export const metadata: Metadata = {
     "Mapa local de paradas de transporte en Hermosillo con indicadores de sombra y riesgo por calor.",
 };
 
+const DONATION_URL = process.env.NEXT_PUBLIC_DONATION_URL ?? "";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -35,7 +37,7 @@ export default function RootLayout({
           <div className="bg-teal-50/80">
             <div className="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-between gap-3 border-b border-teal-100 px-4 py-2 md:px-6">
               <p className="text-xs font-medium text-slate-700">
-              Monitoreo comunitario de infraestructura de paradas de transporte.
+                Monitoreo comunitario de infraestructura de paradas de transporte.
               </p>
               <Link
                 href="/mapa"
@@ -88,6 +90,38 @@ export default function RootLayout({
           </div>
         </header>
         <div className="flex-1">{children}</div>
+        <footer className="border-t border-slate-200/80 bg-white/90">
+          <div className="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-between gap-4 px-4 py-4 md:px-6">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+                Creado por
+              </p>
+              <p className="text-sm font-semibold text-slate-900">
+                Ing. Andres Monreal
+              </p>
+              <p className="text-xs text-slate-600">
+                Ingeniero Biomedico · Topic Tales Biomedica
+              </p>
+            </div>
+            <div className="rounded-md border border-teal-200 bg-teal-50 px-3 py-2">
+              <p className="text-xs font-semibold uppercase tracking-wide text-teal-700">
+                Apoya el proyecto
+              </p>
+              {DONATION_URL ? (
+                <a
+                  href={DONATION_URL}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-1 inline-flex min-h-8 items-center justify-center rounded-md bg-teal-700 px-3 py-1 text-xs font-medium text-white transition hover:bg-teal-600"
+                >
+                  Donar con PayPal
+                </a>
+              ) : (
+                <p className="mt-1 text-xs text-teal-700">Donaciones pronto.</p>
+              )}
+            </div>
+          </div>
+        </footer>
       </body>
     </html>
   );
