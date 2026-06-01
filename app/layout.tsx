@@ -30,23 +30,25 @@ export default function RootLayout({
       lang="es"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-slate-50">
-        <header className="border-b border-slate-300 bg-white">
-          <div className="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-between gap-3 border-b border-slate-200 px-4 py-2 md:px-6">
-            <p className="text-xs font-medium text-slate-600">
+      <body className="min-h-full flex flex-col">
+        <header className="sticky top-0 z-40 border-b border-slate-200/80 bg-white/90 shadow-sm backdrop-blur">
+          <div className="bg-teal-50/80">
+            <div className="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-between gap-3 border-b border-teal-100 px-4 py-2 md:px-6">
+              <p className="text-xs font-medium text-slate-700">
               Monitoreo comunitario de infraestructura de paradas de transporte.
-            </p>
-            <Link
-              href="/mapa"
-              className="inline-flex min-h-9 items-center gap-2 rounded-md border border-slate-300 bg-white px-3 py-1.5 text-xs font-medium text-slate-700 transition hover:bg-slate-100"
-            >
-              <BusFront className="h-4 w-4" aria-hidden="true" />
-              Explorar paradas
-            </Link>
+              </p>
+              <Link
+                href="/mapa"
+                className="inline-flex min-h-9 items-center gap-2 rounded-md bg-teal-700 px-3 py-1.5 text-xs font-medium text-white transition hover:bg-teal-600"
+              >
+                <BusFront className="h-4 w-4" aria-hidden="true" />
+                Explorar paradas
+              </Link>
+            </div>
           </div>
           <div className="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-3 md:px-6">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+              <p className="text-xs font-semibold uppercase tracking-wide text-teal-700">
                 Proyecto comunitario
               </p>
               <Link href="/" className="text-xl font-semibold text-slate-900">
@@ -56,28 +58,28 @@ export default function RootLayout({
             <nav className="flex flex-wrap items-center gap-2 text-sm">
               <Link
                 href="/mapa"
-                className="inline-flex min-h-10 items-center gap-2 rounded-md px-3 py-2 font-medium text-slate-700 hover:bg-slate-100"
+                className="inline-flex min-h-10 items-center gap-2 rounded-md border border-transparent px-3 py-2 font-medium text-slate-700 hover:border-teal-200 hover:bg-teal-50"
               >
                 <Map className="h-4 w-4" aria-hidden="true" />
                 Mapa
               </Link>
               <Link
                 href="/contribuir"
-                className="inline-flex min-h-10 items-center gap-2 rounded-md px-3 py-2 font-medium text-slate-700 hover:bg-slate-100"
+                className="inline-flex min-h-10 items-center gap-2 rounded-md border border-transparent px-3 py-2 font-medium text-slate-700 hover:border-teal-200 hover:bg-teal-50"
               >
                 <MessagesSquare className="h-4 w-4" aria-hidden="true" />
                 Contribuir
               </Link>
               <Link
                 href="/acerca"
-                className="inline-flex min-h-10 items-center gap-2 rounded-md px-3 py-2 font-medium text-slate-700 hover:bg-slate-100"
+                className="inline-flex min-h-10 items-center gap-2 rounded-md border border-transparent px-3 py-2 font-medium text-slate-700 hover:border-teal-200 hover:bg-teal-50"
               >
                 <CircleHelp className="h-4 w-4" aria-hidden="true" />
                 Acerca
               </Link>
               <Link
                 href="/admin/paradas"
-                className="inline-flex min-h-10 items-center gap-2 rounded-md px-3 py-2 font-medium text-slate-700 hover:bg-slate-100"
+                className="inline-flex min-h-10 items-center gap-2 rounded-md border border-transparent px-3 py-2 font-medium text-slate-700 hover:border-teal-200 hover:bg-teal-50"
               >
                 <Database className="h-4 w-4" aria-hidden="true" />
                 Admin
