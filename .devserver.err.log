@@ -1,0 +1,600 @@
+⚠ Blocked cross-origin request to Next.js dev resource /_next/webpack-hmr from "127.0.0.1".
+Cross-origin access to Next.js dev resources is blocked by default for safety.
+
+To allow this host in development, add it to "allowedDevOrigins" in next.config.js and restart the dev server:
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['127.0.0.1'],
+}
+
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+⨯ Error: ENOENT: no such file or directory, open 'C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\app\\page\\build-manifest.json'
+}
+⨯ Error: ENOENT: no such file or directory, open 'C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\static\development\_buildManifest.js.tmp.nesuhrb6o4'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\static\\development\\_buildManifest.js.tmp.nesuhrb6o4'
+}
+Error: ENOENT: no such file or directory, open 'C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\app\\page\\build-manifest.json'
+}
+⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\pages\\_document.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+Error: ENOENT: no such file or directory, open 'C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\routes-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\routes-manifest.json'
+}
+Persisting failed: Unable to write SST file 00000879.sst
+
+Caused by:
+    El sistema no puede encontrar la ruta especificada. (os error 3)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+⨯ Error: ENOENT: no such file or directory, open 'C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\mapa\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\app\\mapa\\page\\build-manifest.json'
+}
+⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\pages\\_document.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+Error: ENOENT: no such file or directory, open 'C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\mapa\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\app\\mapa\\page\\build-manifest.json'
+}
+⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\pages\\_document.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+Error: ENOENT: no such file or directory, open 'C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\routes-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\routes-manifest.json'
+}
+⨯ Error: Cannot find module '../../../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\admin\paradas\page.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\admin\paradas\page.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\app\\admin\\paradas\\page.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/admin/paradas'
+}
+⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\pages\\_document.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+Error: Cannot find module '../../../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\admin\paradas\page.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\admin\paradas\page.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\app\\admin\\paradas\\page.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/admin/paradas'
+}
+⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\pages\\_document.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+Error: ENOENT: no such file or directory, open 'C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\routes-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\routes-manifest.json'
+}
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+⨯ Error: ENOENT: no such file or directory, open 'C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\mapa\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\app\\mapa\\page\\build-manifest.json'
+}
+⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\pages\\_document.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+⨯ Error: Cannot find module '../../../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\admin\paradas\page.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\admin\paradas\page.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\app\\admin\\paradas\\page.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/admin/paradas'
+}
+Error: ENOENT: no such file or directory, open 'C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\mapa\page\build-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\app\\mapa\\page\\build-manifest.json'
+}
+⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\pages\\_document.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\pages\\_document.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+Error: Cannot find module '../../../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\admin\paradas\page.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\admin\paradas\page.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\app\\admin\\paradas\\page.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/admin/paradas'
+}
+Error: ENOENT: no such file or directory, open 'C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\routes-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\routes-manifest.json'
+}
+⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\pages\\_document.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+Error: ENOENT: no such file or directory, open 'C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\routes-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\routes-manifest.json'
+}
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Compaction failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+⨯ Error: Cannot find module '../../../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\admin\paradas\page.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\admin\paradas\page.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\app\\admin\\paradas\\page.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/admin/paradas'
+}
+⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\pages\\_document.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+Error: Cannot find module '../../../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\admin\paradas\page.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\admin\paradas\page.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\app\\admin\\paradas\\page.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/admin/paradas'
+}
+⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\pages\\_document.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+Error: ENOENT: no such file or directory, open 'C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\routes-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\routes-manifest.json'
+}
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+⨯ Error: Cannot find module '../../../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\admin\paradas\page.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\admin\paradas\page.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\app\\admin\\paradas\\page.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/admin/paradas'
+}
+⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\pages\\_document.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+Error: Cannot find module '../../../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\admin\paradas\page.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\app\admin\paradas\page.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\app\\admin\\paradas\\page.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/admin/paradas'
+}
+⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\require.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\load-components.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\build\utils.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\node_modules\next\dist\server\lib\start-server.js
+    at Object.<anonymous> (C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\server\pages\_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\server\\pages\\_document.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+Error: ENOENT: no such file or directory, open 'C:\Users\PC FACTOR BLACK\OneDrive - Universidad Estatal de Sonora\Documentos\Proyectos varios w\paradas-con-sombra-hmo\.next\dev\routes-manifest.json'
+    at ignore-listed frames {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\PC FACTOR BLACK\\OneDrive - Universidad Estatal de Sonora\\Documentos\\Proyectos varios w\\paradas-con-sombra-hmo\\.next\\dev\\routes-manifest.json'
+}
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
+Persisting failed: Another write batch or compaction is already active (Only a single write operations is allowed at a time)
