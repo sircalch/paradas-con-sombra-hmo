@@ -59,15 +59,15 @@ export function StopListPanel({
   }, [stops, sortBy]);
 
   return (
-    <section className="rounded-lg border border-slate-200 bg-white">
+    <section className="rounded-lg border border-slate-200 bg-white shadow-sm">
       <header className="border-b border-slate-200 px-4 py-3">
-        <h2 className="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-slate-500">
+        <h2 className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
           <SquareChartGantt className="h-4 w-4" aria-hidden="true" />
           Lista de paradas
         </h2>
         <label className="mt-3 block text-xs font-medium uppercase tracking-wide text-slate-500">
           Orden
-          <span className="relative mt-1 block">
+          <span className="relative mt-1.5 block">
             <ArrowDownAz
               className="pointer-events-none absolute left-2.5 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400"
               aria-hidden="true"
@@ -75,7 +75,7 @@ export function StopListPanel({
             <select
               value={sortBy}
               onChange={(event) => setSortBy(event.target.value as StopSort)}
-              className="w-full rounded-md border border-slate-300 bg-white py-2 pl-8 pr-3 text-sm font-medium text-slate-900"
+              className="w-full rounded-md border border-slate-300 bg-white py-2 pl-8 pr-3 text-sm font-semibold text-slate-900"
             >
               <option value="risk-desc">Riesgo alto primero</option>
               <option value="coverage-desc">Cobertura alta primero</option>
@@ -100,7 +100,9 @@ export function StopListPanel({
                 type="button"
                 onClick={() => onSelect(stop.id)}
                 className={`w-full px-4 py-3 text-left transition ${
-                  selected ? "bg-slate-100" : "hover:bg-slate-50"
+                  selected
+                    ? "border-l-4 border-l-teal-600 bg-teal-50"
+                    : "border-l-4 border-l-transparent hover:bg-slate-50"
                 }`}
               >
                 <div className="flex items-center justify-between gap-2">

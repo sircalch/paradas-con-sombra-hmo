@@ -1,64 +1,71 @@
-import { ExternalLink, Map, MessageSquare, ShieldCheck } from "lucide-react";
+import { ExternalLink, Map, MessageSquare, ShieldCheck, SunMedium } from "lucide-react";
 import Link from "next/link";
 
+import { getAllStops } from "@/lib/content";
+
 export default function Home() {
+  const stops = getAllStops();
+  const highRisk = stops.filter((stop) => stop.heatRisk === "alto").length;
+  const withShade = stops.filter((stop) => stop.hasShade).length;
+  const withRoof = stops.filter((stop) => stop.hasRoof).length;
+
   return (
     <div className="min-h-screen bg-slate-50">
-      <main className="mx-auto grid w-full max-w-6xl gap-6 px-4 py-10 md:px-6 lg:grid-cols-[1.2fr_0.8fr]">
-        <section className="rounded-lg border border-slate-200 bg-white p-8">
-          <p className="text-sm font-semibold uppercase tracking-wide text-slate-500">
-            HMO Util
+      <main className="mx-auto grid w-full max-w-7xl gap-6 px-4 py-8 md:px-6 md:py-10 lg:grid-cols-[1.3fr_0.7fr]">
+        <section className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm md:p-8">
+          <p className="text-xs font-semibold uppercase tracking-wide text-teal-700">
+            Monitoreo comunitario
           </p>
           <h1 className="mt-2 text-3xl font-semibold text-slate-900 md:text-4xl">
             Paradas con Sombra HMO
           </h1>
-          <p className="mt-4 max-w-2xl text-slate-700">
-            Mapa comunitario para ubicar paradas de transporte con mejores
-            condiciones de sombra, techo, banca e iluminacion.
+          <p className="mt-4 text-sm leading-7 text-slate-700">
+            Mapa operativo para identificar paradas con mejores condiciones de confort
+            termico y seguridad peatonal.
           </p>
-          <section className="mt-6 grid gap-3 rounded-md border border-slate-200 bg-slate-50 p-4 md:grid-cols-3">
-            <article className="rounded-md border border-slate-200 bg-white p-3">
-              <Map className="h-4 w-4 text-slate-500" aria-hidden="true" />
-              <p className="mt-2 text-sm font-medium text-slate-900">Mapa operativo</p>
-              <p className="mt-1 text-xs text-slate-700">
-                Vista de paradas filtrables en una sola pantalla.
+
+          <div className="mt-6 grid gap-3 sm:grid-cols-3">
+            <article className="rounded-md border border-slate-200 bg-slate-50 px-3 py-2">
+              <p className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+                Paradas registradas
               </p>
+              <p className="mt-1 text-xl font-semibold text-slate-900">{stops.length}</p>
             </article>
-            <article className="rounded-md border border-slate-200 bg-white p-3">
-              <ShieldCheck className="h-4 w-4 text-slate-500" aria-hidden="true" />
-              <p className="mt-2 text-sm font-medium text-slate-900">Riesgo por calor</p>
-              <p className="mt-1 text-xs text-slate-700">
-                Indicador bajo, medio o alto por parada.
+            <article className="rounded-md border border-slate-200 bg-slate-50 px-3 py-2">
+              <p className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+                Riesgo alto
               </p>
+              <p className="mt-1 text-xl font-semibold text-slate-900">{highRisk}</p>
             </article>
-            <article className="rounded-md border border-slate-200 bg-white p-3">
-              <MessageSquare className="h-4 w-4 text-slate-500" aria-hidden="true" />
-              <p className="mt-2 text-sm font-medium text-slate-900">Participacion</p>
-              <p className="mt-1 text-xs text-slate-700">
-                Sugerencias comunitarias para actualizar puntos.
+            <article className="rounded-md border border-slate-200 bg-slate-50 px-3 py-2">
+              <p className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+                Con sombra
               </p>
+              <p className="mt-1 text-xl font-semibold text-slate-900">{withShade}</p>
             </article>
-          </section>
+          </div>
+
           <div className="mt-6 flex flex-wrap gap-3">
             <Link
               href="/mapa"
-              className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-slate-700"
+              className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-teal-700 px-4 py-2 text-sm font-semibold text-white transition hover:bg-teal-600"
             >
               <Map className="h-4 w-4" aria-hidden="true" />
               Abrir mapa
             </Link>
             <Link
               href="/contribuir"
-              className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 transition hover:bg-slate-100"
+              className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:border-teal-300 hover:bg-teal-50"
             >
               <MessageSquare className="h-4 w-4" aria-hidden="true" />
               Sugerir parada
             </Link>
           </div>
-          <div className="mt-6 rounded-md border border-slate-200 bg-slate-50 p-4">
-            <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+
+          <section className="mt-6 rounded-md border border-slate-200 bg-slate-50 p-4">
+            <h2 className="text-xs font-semibold uppercase tracking-wide text-slate-500">
               Fuentes base para el mapa
-            </p>
+            </h2>
             <div className="mt-2 grid gap-2 md:grid-cols-2">
               <a
                 href="https://www.openstreetmap.org/"
@@ -79,29 +86,48 @@ export default function Home() {
                 <ExternalLink className="h-4 w-4" aria-hidden="true" />
               </a>
             </div>
-          </div>
+          </section>
         </section>
 
-        <section className="rounded-lg border border-slate-200 bg-white p-8">
-          <h2 className="text-lg font-semibold text-slate-900">Incluye</h2>
-          <ul className="mt-4 space-y-3 text-sm text-slate-700">
-            <li className="rounded-md border border-slate-200 p-3">
-              Mapa interactivo con marcadores de paradas.
-            </li>
-            <li className="rounded-md border border-slate-200 p-3">
-              Filtros por sombra, techo, banca e iluminacion.
-            </li>
-            <li className="rounded-md border border-slate-200 p-3">
-              Panel de detalle y nivel de riesgo por calor.
-            </li>
-          </ul>
-          <Link
-            href="/acerca"
-            className="mt-6 inline-flex min-h-10 items-center justify-center gap-2 rounded-md border border-slate-300 bg-white px-3 py-2 text-sm font-medium text-slate-700 transition hover:bg-slate-100"
-          >
-            <ShieldCheck className="h-4 w-4" aria-hidden="true" />
-            Acerca del proyecto
-          </Link>
+        <section className="space-y-3">
+          <article className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
+            <h2 className="inline-flex items-center gap-2 text-sm font-semibold text-slate-900">
+              <ShieldCheck className="h-4 w-4 text-slate-500" aria-hidden="true" />
+              Cobertura de infraestructura
+            </h2>
+            <div className="mt-3 grid gap-2">
+              <p className="rounded-md border border-slate-200 bg-slate-50 px-3 py-2 text-sm text-slate-700">
+                Con sombra: <span className="font-semibold text-slate-900">{withShade}</span>
+              </p>
+              <p className="rounded-md border border-slate-200 bg-slate-50 px-3 py-2 text-sm text-slate-700">
+                Con techo: <span className="font-semibold text-slate-900">{withRoof}</span>
+              </p>
+            </div>
+          </article>
+
+          <article className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
+            <h2 className="inline-flex items-center gap-2 text-sm font-semibold text-slate-900">
+              <SunMedium className="h-4 w-4 text-slate-500" aria-hidden="true" />
+              Alcance actual
+            </h2>
+            <ul className="mt-3 space-y-2 text-sm text-slate-700">
+              <li className="rounded-md border border-slate-200 bg-slate-50 px-3 py-2">
+                Mapa de puntos con filtros por cobertura.
+              </li>
+              <li className="rounded-md border border-slate-200 bg-slate-50 px-3 py-2">
+                Etiqueta de riesgo por calor para priorizacion.
+              </li>
+              <li className="rounded-md border border-slate-200 bg-slate-50 px-3 py-2">
+                Formulario ciudadano para sugerencias.
+              </li>
+            </ul>
+            <Link
+              href="/mapa"
+              className="mt-3 inline-flex min-h-10 items-center justify-center rounded-md border border-slate-300 bg-white px-3 py-2 text-sm font-semibold text-slate-700 transition hover:border-teal-300 hover:bg-teal-50"
+            >
+              Ir al modulo operativo
+            </Link>
+          </article>
         </section>
       </main>
     </div>

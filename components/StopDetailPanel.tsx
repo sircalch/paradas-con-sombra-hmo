@@ -94,7 +94,7 @@ export function StopDetailPanel({ stop }: StopDetailPanelProps) {
 
   if (!stop) {
     return (
-      <section className="rounded-lg border border-slate-200 bg-white p-4">
+      <section className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
         <h2 className="text-base font-semibold text-slate-900">
           Detalle de parada
         </h2>
@@ -106,7 +106,7 @@ export function StopDetailPanel({ stop }: StopDetailPanelProps) {
   }
 
   return (
-    <section className="rounded-md border border-slate-200 bg-white p-4">
+    <section className="rounded-md border border-slate-200 bg-white p-4 shadow-sm">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <h2 className="text-base font-semibold text-slate-900">{stop.name}</h2>
         <HeatRiskBadge stop={stop} />
@@ -154,7 +154,7 @@ export function StopDetailPanel({ stop }: StopDetailPanelProps) {
 
       <div className="mt-4 grid gap-2 sm:grid-cols-2">
         <div
-          className={`rounded-md border px-3 py-2 text-sm font-medium ${featureClass(stop.hasShade)}`}
+          className={`rounded-md border px-3 py-2 text-sm font-semibold ${featureClass(stop.hasShade)}`}
         >
           {stop.hasShade ? (
             <CircleCheck className="mr-1 inline h-4 w-4" aria-hidden="true" />
@@ -164,7 +164,7 @@ export function StopDetailPanel({ stop }: StopDetailPanelProps) {
           Sombra: {boolLabel(stop.hasShade)}
         </div>
         <div
-          className={`rounded-md border px-3 py-2 text-sm font-medium ${featureClass(stop.hasRoof)}`}
+          className={`rounded-md border px-3 py-2 text-sm font-semibold ${featureClass(stop.hasRoof)}`}
         >
           {stop.hasRoof ? (
             <CircleCheck className="mr-1 inline h-4 w-4" aria-hidden="true" />
@@ -174,7 +174,7 @@ export function StopDetailPanel({ stop }: StopDetailPanelProps) {
           Techo: {boolLabel(stop.hasRoof)}
         </div>
         <div
-          className={`rounded-md border px-3 py-2 text-sm font-medium ${featureClass(stop.hasBench)}`}
+          className={`rounded-md border px-3 py-2 text-sm font-semibold ${featureClass(stop.hasBench)}`}
         >
           {stop.hasBench ? (
             <CircleCheck className="mr-1 inline h-4 w-4" aria-hidden="true" />
@@ -184,7 +184,7 @@ export function StopDetailPanel({ stop }: StopDetailPanelProps) {
           Banca: {boolLabel(stop.hasBench)}
         </div>
         <div
-          className={`rounded-md border px-3 py-2 text-sm font-medium ${featureClass(stop.hasLighting)}`}
+          className={`rounded-md border px-3 py-2 text-sm font-semibold ${featureClass(stop.hasLighting)}`}
         >
           {stop.hasLighting ? (
             <CircleCheck className="mr-1 inline h-4 w-4" aria-hidden="true" />

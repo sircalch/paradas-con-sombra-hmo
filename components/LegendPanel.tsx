@@ -2,8 +2,8 @@ import { ThermometerSun } from "lucide-react";
 
 export function LegendPanel() {
   return (
-    <section className="rounded-lg border border-slate-200 bg-white p-4">
-      <h2 className="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-slate-500">
+    <section className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
+      <h2 className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
         <ThermometerSun className="h-4 w-4" aria-hidden="true" />
         Leyenda
       </h2>

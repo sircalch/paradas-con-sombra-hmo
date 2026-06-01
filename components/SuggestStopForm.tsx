@@ -109,10 +109,10 @@ export function SuggestStopForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="rounded-lg border border-slate-200 bg-white p-6"
+      className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm"
     >
       <h1 className="text-2xl font-semibold text-slate-900">Sugerir parada</h1>
-      <p className="mt-2 text-sm text-slate-700">
+      <p className="mt-2 text-sm leading-7 text-slate-700">
         Comparte una parada con datos minimos para revision comunitaria.
       </p>
 
@@ -123,7 +123,7 @@ export function SuggestStopForm() {
             required
             value={form.name}
             onChange={(event) => setForm({ ...form, name: event.target.value })}
-            className="mt-1 w-full rounded-md border border-slate-300 px-3 py-2 text-sm text-slate-900"
+            className="mt-1.5 w-full rounded-md border border-slate-300 px-3 py-2 text-sm text-slate-900"
           />
         </label>
         <label className="block text-sm text-slate-700">
@@ -134,7 +134,7 @@ export function SuggestStopForm() {
             onChange={(event) =>
               setForm({ ...form, colonia: event.target.value })
             }
-            className="mt-1 w-full rounded-md border border-slate-300 px-3 py-2 text-sm text-slate-900"
+            className="mt-1.5 w-full rounded-md border border-slate-300 px-3 py-2 text-sm text-slate-900"
           />
         </label>
         <label className="block text-sm text-slate-700">
@@ -145,7 +145,7 @@ export function SuggestStopForm() {
             onChange={(event) =>
               setForm({ ...form, latitude: event.target.value })
             }
-            className="mt-1 w-full rounded-md border border-slate-300 px-3 py-2 text-sm text-slate-900"
+            className="mt-1.5 w-full rounded-md border border-slate-300 px-3 py-2 text-sm text-slate-900"
           />
         </label>
         <label className="block text-sm text-slate-700">
@@ -156,13 +156,13 @@ export function SuggestStopForm() {
             onChange={(event) =>
               setForm({ ...form, longitude: event.target.value })
             }
-            className="mt-1 w-full rounded-md border border-slate-300 px-3 py-2 text-sm text-slate-900"
+            className="mt-1.5 w-full rounded-md border border-slate-300 px-3 py-2 text-sm text-slate-900"
           />
         </label>
       </div>
 
       <div className="mt-4 grid gap-2 sm:grid-cols-2">
-        <label className="flex items-center gap-2 text-sm text-slate-700">
+        <label className="flex items-center gap-2 rounded-md border border-slate-200 bg-slate-50 px-3 py-2 text-sm text-slate-700">
           <input
             type="checkbox"
             checked={form.hasShade}
@@ -172,7 +172,7 @@ export function SuggestStopForm() {
           />
           Tiene sombra
         </label>
-        <label className="flex items-center gap-2 text-sm text-slate-700">
+        <label className="flex items-center gap-2 rounded-md border border-slate-200 bg-slate-50 px-3 py-2 text-sm text-slate-700">
           <input
             type="checkbox"
             checked={form.hasRoof}
@@ -180,7 +180,7 @@ export function SuggestStopForm() {
           />
           Tiene techo
         </label>
-        <label className="flex items-center gap-2 text-sm text-slate-700">
+        <label className="flex items-center gap-2 rounded-md border border-slate-200 bg-slate-50 px-3 py-2 text-sm text-slate-700">
           <input
             type="checkbox"
             checked={form.hasBench}
@@ -190,7 +190,7 @@ export function SuggestStopForm() {
           />
           Tiene banca
         </label>
-        <label className="flex items-center gap-2 text-sm text-slate-700">
+        <label className="flex items-center gap-2 rounded-md border border-slate-200 bg-slate-50 px-3 py-2 text-sm text-slate-700">
           <input
             type="checkbox"
             checked={form.hasLighting}
@@ -208,14 +208,14 @@ export function SuggestStopForm() {
           rows={4}
           value={form.comments}
           onChange={(event) => setForm({ ...form, comments: event.target.value })}
-          className="mt-1 w-full rounded-md border border-slate-300 px-3 py-2 text-sm text-slate-900"
+          className="mt-1.5 w-full rounded-md border border-slate-300 px-3 py-2 text-sm text-slate-900"
         />
       </label>
 
       <button
         type="submit"
         disabled={isSubmitting}
-        className="mt-5 inline-flex min-h-11 items-center justify-center rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-slate-700"
+        className="mt-5 inline-flex min-h-11 items-center justify-center rounded-md bg-teal-700 px-4 py-2 text-sm font-semibold text-white transition hover:bg-teal-600"
       >
         {isSubmitting ? "Enviando..." : "Enviar sugerencia"}
       </button>

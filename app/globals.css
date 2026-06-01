@@ -2,9 +2,11 @@
 @import "maplibre-gl/dist/maplibre-gl.css";
 
 :root {
-  --background: #f7faf9;
-  --foreground: #0f1f29;
+  --background: #f4faf8;
+  --foreground: #0f172a;
   --surface: #ffffff;
+  --border: #d7e7e2;
+  --focus-ring: #0f766e;
 }
 
 @theme inline {
@@ -17,19 +19,43 @@
 
 body {
   background:
-    radial-gradient(circle at 8% -12%, #ccfbf1 0%, transparent 36%),
-    radial-gradient(circle at 92% -12%, #dbeafe 0%, transparent 34%),
-    radial-gradient(circle at 50% 118%, #ffedd5 0%, transparent 30%),
+    radial-gradient(circle at 10% -16%, #ccfbf1 0%, transparent 28%),
+    radial-gradient(circle at 90% -15%, #bae6fd 0%, transparent 24%),
+    linear-gradient(180deg, #f9fcfb 0%, #f4faf8 55%, #edf5f3 100%),
     var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
 }
 
 * {
   letter-spacing: 0;
+  box-sizing: border-box;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+button,
+input,
+select,
+textarea {
+  transition:
+    background-color 140ms ease,
+    border-color 140ms ease,
+    color 140ms ease,
+    box-shadow 140ms ease;
+}
+
+input,
+select,
+textarea {
+  border-color: var(--border);
 }
 
 ::selection {
   background: #99f6e4;
-  color: #115e59;
+  color: #134e4a;
 }
