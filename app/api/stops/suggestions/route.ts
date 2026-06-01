@@ -20,6 +20,40 @@ type StopSuggestionRecord = StopSuggestionInput & {
 
 const memorySuggestions: StopSuggestionRecord[] = [];
 
+function isInternalRequestAuthorized(request: NextRequest): boolean {
+  const expectedUser = process.env.INTERNAL_ROUTE_USER;
+  const expectedPassword = process.env.INTERNAL_ROUTE_PASSWORD;
+
+  if (!expectedUser || !expectedPassword) {
+    return false;
+  }
+
+  const authorization = request.headers.get("authorization");
+  if (!authorization?.startsWith("Basic ")) {
+    return false;
+  }
+
+  const payload = authorization.slice("Basic ".length).trim();
+  if (payload.length === 0) {
+    return false;
+  }
+
+  try {
+    const decoded = atob(payload);
+    const separatorIndex = decoded.indexOf(":");
+    if (separatorIndex < 0) {
+      return false;
+    }
+
+    const username = decoded.slice(0, separatorIndex);
+    const password = decoded.slice(separatorIndex + 1);
+
+    return username === expectedUser && password === expectedPassword;
+  } catch {
+    return false;
+  }
+}
+
 function asString(value: unknown): string {
   return typeof value === "string" ? value.trim() : "";
 }
@@ -138,7 +172,19 @@ async function persistToSupabase(
 
 export const dynamic = "force-dynamic";
 
-export async function GET() {
+export async function GET(request: NextRequest) {
+  if (!isInternalRequestAuthorized(request)) {
+    return Response.json(
+      { ok: false, error: "No autorizado." },
+      {
+        status: 401,
+        headers: {
+          "WWW-Authenticate": 'Basic realm="Internal Area"',
+        },
+      },
+    );
+  }
+
   return Response.json({
     storage: "memory",
     count: memorySuggestions.length,

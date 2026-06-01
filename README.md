@@ -63,6 +63,7 @@ Abrir `http://localhost:3000` o el puerto disponible.
 
 - `GET /api/stops` lista paradas con filtros (`q`, `risk`, `shadeOnly`, `roofOnly`, `benchOnly`, `lightingOnly`, `limit`)
 - `POST /api/stops/suggestions` registra sugerencias desde `/contribuir`
+- `GET /api/stops/suggestions` (solo interno con auth basica)
 - `GET /api/stops/weather?lat=..&lon=..` obtiene clima actual via Open-Meteo
 
 ### Persistencia opcional (Supabase)
@@ -76,6 +77,14 @@ Si no existen, usa dataset local `data/stops.json` y fallback en memoria para su
 - `SUPABASE_STOP_SUGGESTIONS_TABLE` (opcional, default: `stop_suggestions`)
 
 Schema sugerido: `supabase/schema.sql`
+
+### Seguridad de rutas internas
+
+Las rutas `/acerca` y `/admin/*` estan protegidas con HTTP Basic Auth en `proxy.ts`.
+
+- `INTERNAL_ROUTE_USER`
+- `INTERNAL_ROUTE_PASSWORD`
+- `NEXT_PUBLIC_SHOW_INTERNAL_NAV` (opcional, `true` para mostrar links internos en el menu)
 
 ### Deploy
 
